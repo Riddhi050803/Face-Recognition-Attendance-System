@@ -214,8 +214,8 @@ class Student:
         Right_frame=LabelFrame(main_frame,bd=2,bg="white",relief=RIDGE,text="Student Details",font=("times new roman",12,"bold"))
         Right_frame.place(x=770,y=10,width=720,height=580)
 
-        img_right= Image.open("C:/Users/Dell/Desktop/awesome to-do/Face-Recognition-Attendance-System/college_images/img1.png")
-        #img_right = Image.open("C:/Users/rusta/Ai-project/college_images/img1.png")
+        # img_right= Image.open("C:/Users/Dell/Desktop/awesome to-do/Face-Recognition-Attendance-System/college_images/img1.png")
+        img_right = Image.open("C:/Users/rusta/Ai-project/college_images/img1.png")
 
         img_right=img_right.resize((700,130),Image.LANCZOS)
         self.photoimg_right=ImageTk.PhotoImage(img_right)
